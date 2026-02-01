@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <h1><i>Job Application</i></h1>
+    <form action="">
+        <label for="name">Enter name:-</label><br>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Enter Email:-</label><br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phone">Phone:-</label><br>
+        <input type="tel" id="phone" name="phone">
+        <br><br> 
+        <label for="resume">Resume</label><br>
+        <input type="file" name="file" id="resume">
+        <br><br>
+        <label for="experience">Experience</label><br>
+        <input type="number" name="counter" id="experience" min="0" max="20">
+        <br><br>
+        <fieldset style="display: inline;">
+            <legend>Skills:-</legend>
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox1"><br>
+            <label for="checkbox1">CSS</label>
+            <input type="checkbox" name="checkbox" id="checkbox1"><br>
+            <label for="checkbox1">JAVASCRIPT</label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+        </fieldset>
+        <br><br>
+        <label for="education">Higher Education</label><br>
+        <select id="education">
+            <option value="a">High School</option>
+            <option value="b">Inter</option>
+            <option value="c">Bachelors</option>
+            <option value="d">Masters</option>
+        </select>
+        <br><br>
+        <fieldset style="display: inline;">
+            <legend>Availability</legend>
+            <label for="radio1">Full-time</label>
+            <input type="radio" name="radio" id="radio1"><br>
+            <label for="radio2">Part-Time</label>
+            <input type="radio" name="radio" id="radio2"><br>
+        </fieldset>
+        <br><br>
+        <label for="">Additional Comments:</label><br>
+        <textarea name="Enter Here" id="" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
