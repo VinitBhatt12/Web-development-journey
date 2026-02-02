@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS -->
+    <style>
+        h1{
+            
+            font-size:medium;
+            text-align: center;
+            background-color: rgba(100,109, 192,0.20);
+        }
+        #id-selector{
+            color:rgb(96, 95, 92);
+            background-color: #ab67bb;
+        }
+        .class-selector{
+        color:rgb(35, 69, 69) !important;
+        font-size: 20px;
+        }
+        p,article,h1{ 
+            /* width: 50%; */
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 900;
+            line-height: 25px;
+        }
+        /* this will apply only on article tag which have class-selector ID */
+        article.class-selector{
+            text-align: center;
+            background-color: rgb(100,109, 192);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Practise</h1>
+    <!-- Inline CSS -->
+    <p id="id-selector">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi veniam a deserunt commodi reiciendis? Debitis nisi doloribus ab similique repellendus, alias aut officiis sint accusamus odio maiores tempore quam corrupti.</p>
+
+    <p class="class-selector">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias unde maxime, ex voluptatum reiciendis tempore consequatur dignissimos minima vero excepturi nisi voluptates doloremque repudiandae error maiores cum recusandae adipisci. Maiores laudantium quibusdam recusandae doloribus excepturi in voluptate corrupti illum?</p>
+
+    <p class="class-selector">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odio beatae modi ut nam non deleniti laudantium officiis, officia perspiciatis accusamus dolor, porro doloremque hic vitae quo. Sint, assumenda fuga.</p>
+
+    <article class="class-selector">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iste consequatur molestiae quia quos quibusdam voluptatibus. Sequi quae tempore vitae eius mollitia quisquam. Nisi officia deleniti sunt reiciendis exercitationem laborum.</article>
+    <footer>This is footer</footer>
+</body>
+</html>
