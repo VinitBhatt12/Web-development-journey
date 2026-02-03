@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            /* Variable -declaration */
+            --primary-color: brown; 
+            --custom-width: 330px;
+        }
+        .container{
+            background-color:beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+           /* Variable-Access */
+            width: var(--custom-width);
+            border: 1px solid var(--primary-color);
+            background-color: aquamarine;
+            height: 330px;
+            margin: 5px;
+            padding: 5px;
+            
+            /* box-shadow: -10px -60px var(--primary-color); */
+            /* box-shadow: 10px 15px 50px brown; */
+            /* box-shadow:10px 10px 30px rgb(255, 1, 43); */
+            /* box-shadow: 10px 15px 5px 100px rgba(78, 158, 211, 0.7);  */
+            /* box-shadow: inset -10px -15px 20px brown ,inset 10px 15px 20px brown; */
+            /* box-shadow: 10px 15px red, 15px 8px green; */
+        }
+        #head1{
+            /* text-shadow: 2px 1px 1px rgb(213, 58, 58); */
+            /* text-shadow: yellow 12px 13px 2px; */
+            /* text-shadow: white 12px 13px; */
+            /* text-shadow: 12px 13px; */
+            /* HW - multiple text shadows add krni h ek text pr  */
+            /* text-shadow: 4px 4px red,8px 8px green; */
+            /* text-shadow: 3px 1px white; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            <img src="logo.svg" />
+            <h2 id="head1">Welcome to CodeHelp</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ratione a quibusdam? Animi atque iste aliquam pariatur laboriosam quisquam placeat, facere voluptates necessitatibus, vitae saepe!</p>
+        </div>
+
+    </div>
+</body>
+</html>
