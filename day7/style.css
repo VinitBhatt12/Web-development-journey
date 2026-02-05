@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 1rem;
+}
+header{
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+.header-content{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    color: var(--text-color);
+    gap: 0.4rem;
+}
+.nav{
+    /* border: 1px solid pink; */
+    display: none;
+    gap: 1.5rem;
+}
+@media screen and (min-width:930px) {
+    .nav{
+        display: flex;
+    }
+}
+.nav-link{
+    color: #919397;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transform: color 0.1s;
+}
+.nav-link:hover{
+    color: var(--link-color);
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+.btn-grad {
+            /* margin: 10px; */
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: none;
+}
+
+.btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+}
+
+@media screen and (min-width:930px) {
+    .btn-grad{
+        display: block;
+    }
+}
+.menu-button{
+    display: none;
+}
+@media screen and (max-width:929px){
+    .menu-button{
+        display: block;
+    }
+}
+.menu-icon{
+    height: 1.5rem; 
+    width: 1.5rem;
+}
