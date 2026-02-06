@@ -256,9 +256,6 @@ header{
     flex-direction: column;
     gap: 20px;
 }
-.cont3-head{
-    /* border: 1px solid black; */
-}
 .cont3-body{
     display: flex;
     /* border: 1px solid black; */
@@ -319,9 +316,6 @@ header{
 .cont3-foot-right-input input{
     height: 22px;
     border-radius: 9px;
-}
-.cont3-foot-right-input button{
-
 }
 .cont3-foot-right-con{
     text-align: start;
