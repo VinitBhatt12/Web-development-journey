@@ -11,6 +11,14 @@
     --gray: #808080;
     --dark-gray: #555;
 }
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
 
 * {
     margin: 0;
