@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kanban Board</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="kanban.png" type="image/x-icon">
 </head>
 <body>
     <main>
@@ -17,11 +18,6 @@
                 <div class="heading">
                     <div class="left">To Do</div>
                     <div class="right">Count</div>
-                </div>
-                <div class="task" draggable="true">
-                    <h2>Task 1</h2>
-                    <p>Description for task 1</p>
-                    <button>Delete</button>
                 </div>
             </div>
             <div id="progress" class="task-column ">
@@ -42,7 +38,7 @@
     <div class="modal add-new-task ">
         <div class="bg"></div>
         <div class="center ">
-            <input type="text" placeholder="Task Title" id="taskTitle">
+            <input type="text" placeholder="Task Title" id="taskTitle" autocomplete="off">
             <textarea placeholder="Task Discription" id="taskDesc"></textarea>
             <button id="add-new-task" class="add-task-btn">Add Task</button>
         </div>
